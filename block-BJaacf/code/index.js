@@ -36,25 +36,19 @@ console.log(lowestNum);
 // 6. Find the even numbers in the array and print them to the console using console.log()
 
 for (let num of arr) {
-	if (num % 2 == 0) {
-		console.log(num);
-	}
+	if (num % 2 == 0) console.log(num);
 }
 
 // 7. Find the odd numbers in the array and print them to the console using console.log()
 
 for (let num of arr) {
-	if (num % 2 != 0) {
-		console.log(num);
-	}
+	if (num % 2 != 0) console.log(num);
 }
 
 // 8. Find the numbers in the array that is divisible by 5 and print them to the console using console.log()
 
 for (let num of arr) {
-	if (num % 5 == 0) {
-		console.log(num);
-	}
+	if (num % 5 == 0) console.log(num);
 }
 
 // 9. Log all the element of the array one by one
@@ -64,7 +58,5 @@ for (let num of arr) console.log(num);
 // 10. Find all the number in the array that is divisible by 3
 
 for (let num of arr) {
-	if (num % 3 == 0) {
-		console.log(num);
-	}
+	if (num % 3 == 0) console.log(num);
 }
